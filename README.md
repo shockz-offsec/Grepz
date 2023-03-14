@@ -1,9 +1,21 @@
-# Grepz
+<div align="center">
+  <h1>Grepz</h1>
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/67438760/225121061-bd05653f-02b5-49eb-ae53-840e76bca4d1.png" align="center">
+</div>
+
+#
+
 Grepz is a versatile command-line tool that offers various options for searching and highlighting specific terms or regex in a text file. With its customizable color options, users can highlight matches with a chosen background or foreground color. Additionally, Grepz allows users to view the context of the match by displaying the lines before and after it.
 
 For reporting purposes, Grepz offers a special mode that highlights matches with a box, making it easy to spot them in a text file. Whether you need to quickly search for a term or carefully review a document, Grepz is a powerful and flexible tool that can help you achieve your goals.
 
-## Installation
+<div align="center">
+  <h2>Installation</h2>
+</div>
+
 To install Grepz, run the following command:
 
 ```
@@ -16,7 +28,10 @@ cd Grepz
 go build -o grepz grepz.go
 ```
 
-## Download the compiled binary for Windows, Linux or MacOS
+<div align="center">
+  <h2>Download the compiled binary for Windows, Linux or MacOS</h2>
+</div>
+
 
 [Download the latest version](https://github.com/shockz-offsec/Grepz/releases)
 
@@ -30,7 +45,9 @@ Set-ItemProperty HKCU:\Console VirtualTerminalLevel -Type DWORD 1
 ```
 
 
-## Usage
+<div align="center">
+  <h2>Usage</h2>
+</div>
 
 ```
 grepz [-i] [-box|-b] [-up num] [-down num] <search_term> [<input_file>]
@@ -42,12 +59,20 @@ grepz [-i] [-box|-b] [-up num] [-down num] <search_term> [<input_file>]
 * `-down num`: Displays a specified number of lines after the match.
 * `<search_term>`: The term you want to search for. Regular expressions are accepted.
 * `<input_file>`: The file in which you want to search. If this parameter is not provided, it is read from the standard input by pipping.
+
+<div align="center">
+  <h3>Context funtionality</h3>
+</div>
+
 #
-### Context funtionality
 
 The context functionality allows grouping in the same context several occurrences that are within the range specified by the `-up` or `-down` parameters. This will make it easier to understand and analyze them together. In case the occurrences are not in range, they will be shown in different contexts, but always accompanied by their respective context lines for a better understanding.
+
+<div align="center">
+  <h3>Colors</h3>
+</div>
+
 #
-### Colors
 
 The background and foreground colors can also be changed by using the `-bg` and `-fg` flags followed by one of the following colors: `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `black` or `pink`.
 
@@ -55,7 +80,9 @@ The background and foreground colors can also be changed by using the `-bg` and 
 
 * Box color is `red` by default.
 
-## Examples
+<div align="center">
+  <h2>Examples</h2>
+</div>
 
 Search for the term `world` in the file `myfile.json`, using a case-insensitive search and highlight the match in `cyan`:
 
@@ -89,13 +116,20 @@ grepz -i -b -bg yellow -fg magenta "hello" myfile.json
 
 [![](https://asciinema.org/a/uuUia0T9FzvTEQpE5axiRHzRP.svg)](https://asciinema.org/a/uuUia0T9FzvTEQpE5axiRHzRP)
 
-## ToDo
+<div align="center">
+  <h2>ToDo</h2>
+</div>
+
 - [ ] Allow recursive searches in files
 
-## Credits
+<div align="center">
+  <h2>Credits</h2>
+</div>
 
 [Shockz OffSec](https://github.com/shockz-offsec) & [Siriil](https://github.com/siriil)
 
-## License
+<div align="center">
+  <h2>License</h2>
+</div>
 
 This tool is licensed under the Apache-2.0 License.
