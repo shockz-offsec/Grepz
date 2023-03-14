@@ -9,7 +9,7 @@ To install Grepz, run the following command:
 ```
 go get github.com/shockz-offsec/grepz
 ```
-
+or via building via repository
 ```
 git clone https://github.com/shockz-offsec/Grepz.git
 cd Grepz
