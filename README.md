@@ -1,12 +1,9 @@
 <div align="center">
   <h1>Grepz</h1>
 </div>
-
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/67438760/225121061-bd05653f-02b5-49eb-ae53-840e76bca4d1.png" align="center">
+  <img src="https://user-images.githubusercontent.com/67438760/225127447-4b768322-ae62-46c8-be2c-8174cad7c739.png" align="center">
 </div>
-
-#
 
 Grepz is a versatile command-line tool that offers various options for searching and highlighting specific terms or regex in a text file. With its customizable color options, users can highlight matches with a chosen background or foreground color. Additionally, Grepz allows users to view the context of the match by displaying the lines before and after it.
 
