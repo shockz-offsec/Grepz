@@ -18,7 +18,7 @@ go build -o grepz grepz.go
 
 ## Download the compiled binary for Windows, Linux or MacOS
 
-[Download the latest version]()
+[Download the latest version](https://github.com/shockz-offsec/Grepz/releases)
 
 # 
 Please, if you are going to use powershell on Windows 10 you must:
@@ -49,11 +49,11 @@ The context functionality allows grouping in the same context several occurrence
 #
 ### Colors
 
-The background and foreground colors can also be changed by using the `-bg` and `-fg` flags followed by one of the following colors: `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, or `white`.
+The background and foreground colors can also be changed by using the `-bg` and `-fg` flags followed by one of the following colors: `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`, `black` or `pink`.
 
-> The default background color is `magenta` and the foreground color is `white`.
+* The default background color is `magenta` and the foreground color is `white`.
 
-> Box color is `red` by default.
+* Box color is `red` by default.
 
 ## Examples
 
