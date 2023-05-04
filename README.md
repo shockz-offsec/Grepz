@@ -129,4 +129,4 @@ grepz -i -b -bg yellow -fg magenta "hello" myfile.json
   <h2>License</h2>
 </div>
 
-This tool is licensed under the Apache-2.0 License.
+This tool is licensed under the  GPL-3.0 License.
